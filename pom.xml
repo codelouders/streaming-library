@@ -38,9 +38,6 @@
             <artifactId>flink-connector-kafka</artifactId>
             <version>${flink.version}</version>
         </dependency>
-
-
-
         <!-- encoding -->
         <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-formats -->
 <!--        <dependency>-->
