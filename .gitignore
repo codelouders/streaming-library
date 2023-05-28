@@ -1,29 +1,27 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+*.class
+*.log
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Mac OS specific
+**/.DS_Store
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# sbt specific
+.cache
+.history
+.lib/
+.bsp/*
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
 
-### VS Code ###
-.vscode/
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
 
-### Mac OS ###
-.DS_Store
+# Intellij specific
+.idea/
+*.iml
+
+logs/
