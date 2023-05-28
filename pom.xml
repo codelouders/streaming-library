@@ -10,6 +10,12 @@
         <flink.version>1.17.1</flink.version>
     </properties>
 
+    <scm>
+        <connection>scm:git:https://vixxx123/streaming-library.git</connection>
+        <developerConnection>scm:git:https://github.com/vixxx123/streaming-library.git</developerConnection>
+        <url>https://github.com/vixxx123/streaming-library</url>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.flink</groupId>
