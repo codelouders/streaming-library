@@ -1,17 +1,8 @@
 name: Publish package to the Maven Central Repository
 on:
-  workflow_dispatch:
-    inputs:
-      releaseVersion:
-        description: "Default version to use when preparing a release."
-        required: true
-        default: "X.Y.Z"
-      developmentVersion:
-        description: "Default version to use for new local working copy."
-        required: true
-        default: "X.Y.Z-SNAPSHOT"
-  release:
-    types: [ created ]
+  push:
+    branches:
+      - main
 jobs:
   release:
     runs-on: ubuntu-latest
