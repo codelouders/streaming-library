@@ -11,9 +11,9 @@
     </properties>
 
     <scm>
-        <connection>scm:git:https://codeloauders/streaming-library.git</connection>
-        <developerConnection>scm:git:https://github.com/codeloauders/streaming-library.git</developerConnection>
-        <url>https://github.com/codeloauders/streaming-library</url>
+        <connection>scm:git:https://codelouders/streaming-library.git</connection>
+        <developerConnection>scm:git:https://github.com/codelouders/streaming-library.git</developerConnection>
+        <url>https://github.com/codelouders/streaming-library</url>
     </scm>
 
     <distributionManagement>
